@@ -486,10 +486,18 @@ footer a{color:var(--gold);text-decoration:none;}
     <button class="modal-close" onclick="closeModal('modal-privacidade')">✕</button>
     <h3>Política de Privacidade</h3>
     <div class="modal-alert">⚠️ O Meu Apontador está em fase de lançamento. Apesar do nosso compromisso com a estabilidade, erros e instabilidades podem ocorrer. Trabalhamos continuamente para corrigi-los.</div>
-    <p><strong>Dados coletados:</strong> O app armazena localmente no seu dispositivo os registros de obra, equipe, viagens e equipamentos que você inserir. Nenhum dado pessoal é enviado a terceiros.</p>
-    <p><strong>Sincronização:</strong> Quando há conexão, os dados são sincronizados com servidores seguros exclusivamente para backup e acesso multi-dispositivo.</p>
-    <p><strong>Chave de licença:</strong> Seu número de WhatsApp é utilizado apenas para entrega da chave de ativação e suporte. Não fazemos spam.</p>
-    <p><strong>Compartilhamento:</strong> Não vendemos, alugamos ou compartilhamos seus dados com terceiros.</p>
+    <div class="modal-alert">⚠️ <strong>Atenção — risco de perda de dados:</strong> Os dados do app são armazenados no <strong>IndexedDB</strong> do seu navegador/dispositivo. Se você limpar o histórico, cache ou dados de navegação, <strong>todos os registros serão apagados permanentemente</strong> e não será possível recuperá-los. Faça exportações periódicas para evitar perda de informações.</div>
+
+    <p><strong>Armazenamento local (IndexedDB):</strong> Todos os seus registros — obras, equipe, viagens e equipamentos — ficam salvos no IndexedDB do dispositivo em que o app foi instalado. Esse banco de dados local é gerenciado pelo próprio navegador/sistema e pode ser apagado caso o usuário limpe os dados de navegação, desinstale o app ou formate o dispositivo.</p>
+
+    <p><strong>Sem backup automático nesta versão:</strong> A versão atual não realiza backup em nuvem. O usuário é o único responsável pela preservação dos dados. Recomendamos <strong>não limpar o histórico ou cache do navegador</strong> no dispositivo onde o app está instalado.</p>
+
+    <p><strong>Sincronização (versões futuras):</strong> Versões futuras poderão incluir sincronização com servidores seguros para backup e acesso multi-dispositivo. Esta funcionalidade não está disponível na versão atual de lançamento.</p>
+
+    <p><strong>Chave de licença:</strong> Seu número de WhatsApp é utilizado exclusivamente para entrega da chave de ativação e suporte. Não fazemos spam nem compartilhamos seu contato.</p>
+
+    <p><strong>Compartilhamento:</strong> Não vendemos, alugamos ou compartilhamos seus dados com terceiros em nenhuma hipótese.</p>
+
     <p><strong>Contato:</strong> Dúvidas sobre privacidade? Fale direto pelo WhatsApp de suporte.</p>
   </div>
 </div>
