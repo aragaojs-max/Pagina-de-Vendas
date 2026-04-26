@@ -191,6 +191,9 @@ footer a{color:var(--gold);text-decoration:none;}
 .modal-close{position:absolute;top:16px;right:20px;background:none;border:none;color:var(--muted);font-size:22px;cursor:pointer;line-height:1;}
 .modal-close:hover{color:var(--text);}
 .modal-alert{background:rgba(226,75,74,.08);border:0.5px solid rgba(226,75,74,.25);border-radius:10px;padding:12px 16px;font-size:12px;color:#F09595;margin-bottom:16px;line-height:1.6;}
+
+.device-notice{display:flex;align-items:flex-start;gap:10px;background:rgba(251,191,36,.06);border:0.5px solid rgba(251,191,36,.2);border-radius:10px;padding:12px 14px;margin-top:14px;font-size:12px;color:var(--muted);line-height:1.6;text-align:left;}
+.device-notice span{font-size:16px;flex-shrink:0;margin-top:1px;}
 </style>
 </head>
 <body>
@@ -436,6 +439,10 @@ footer a{color:var(--gold);text-decoration:none;}
       GARANTIR MINHA LICENÇA — R$ 19,90
     </a>
     <p class="pguarantee">🔒 Pague via Pix · Chave enviada via WhatsApp na hora</p>
+    <div class="device-notice">
+      <span>📱</span>
+      <div><strong style="color:var(--text)">Importante:</strong> Os dados ficam salvos no dispositivo onde o app foi instalado. Use sempre o mesmo celular para acessar seus registros. Limpar o cache ou trocar de aparelho sem exportar os dados pode resultar em perda de informações.</div>
+    </div>
   </div>
 </section>
 
@@ -458,7 +465,7 @@ footer a{color:var(--gold);text-decoration:none;}
   </div>
   <div class="fqi">
     <div class="fqq" onclick="this.parentElement.classList.toggle('open')">Posso usar em dois celulares?<span>+</span></div>
-    <div class="fqa">Cada licença é pra 1 celular. Se trocar de aparelho ou tiver algum problema, é só chamar no WhatsApp que transferimos sem custo.</div>
+    <div class="fqa">Cada licença é para 1 dispositivo. Os dados ficam salvos localmente no celular onde o app foi instalado — <strong>use sempre o mesmo aparelho</strong>. Se usar em dois dispositivos diferentes, cada um terá seus próprios dados separados. Se trocar de celular, exporte seus dados antes ou chame no WhatsApp.</div>
   </div>
   <div class="fqi">
     <div class="fqq" onclick="this.parentElement.classList.toggle('open')">Tem mensalidade?<span>+</span></div>
